@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Clean Pro 93</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1 class="animated-title">Auto Clean Pro 93</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#reservation">Réserver</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Nettoyage automobile professionnel</h2>
+    <p>Polissage, lavage intérieur/extérieur, rénovation de phares et plus encore !</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>✅ Nettoyage intérieur</li>
+      <li>✅ Nettoyage extérieur</li>
+      <li>✅ Polissage carrosserie</li>
+      <li>✅ Nettoyage des jantes</li>
+      <li>✅ Rénovation des phares</li>
+    </ul>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <div class="galerie">
+      <img src="https://images.unsplash.com/photo-1604661918213-6112d4c792b8" alt="Lavage extérieur">
+      <img src="https://images.unsplash.com/photo-1607860108855-dc1cda2567be" alt="Nettoyage intérieur">
+      <img src="https://images.unsplash.com/photo-1625051747121-cbaa8e967b91" alt="Polissage véhicule">
+    </div>
+  </section>
+
+  <section id="reservation">
+    <h2>Réserver un rendez-vous</h2>
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="tel">Téléphone :</label>
+      <input type="tel" id="tel" name="tel" required>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="heure">Heure :</label>
+      <input type="time" id="heure" name="heure" required>
+
+      <label for="service">Service :</label>
+      <select id="service" name="service" required>
+        <option value="">-- Choisissez un service --</option>
+        <option value="interieur">Nettoyage intérieur</option>
+        <option value="exterieur">Nettoyage extérieur</option>
+        <option value="polissage">Polissage</option>
+        <option value="jantes">Nettoyage jantes</option>
+        <option value="phares">Rénovation phares</option>
+      </select>
+
+      <label for="message">Commentaire :</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Adresse :</strong> 123 Rue de l'Auto, 93000 Bobigny</p>
+    <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+    <p><strong>Email :</strong> contact@autoclean93.fr</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Auto Clean Pro 93 - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
